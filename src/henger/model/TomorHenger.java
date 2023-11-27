@@ -19,13 +19,13 @@ public class TomorHenger extends Henger {
         return fajsuly;
     }
      public double suly() {
-        return fajsuly * 2;
+        return fajsuly * super.terfogat();
     }
 
     @Override
     public String toString() {
-        String txt = super.toString();
-        txt += "TomorHenger{" + "fajsuly=" + fajsuly + "súly: " + suly() + '}';
+         String txt = super.toString();
+         txt += "\n\t" + "TomorHenger{" + "fajsuly=" + fajsuly + '}';
         return txt;
     }
     
