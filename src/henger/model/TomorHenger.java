@@ -25,7 +25,7 @@ public class TomorHenger extends Henger {
     @Override
     public String toString() {
         String txt = super.toString();
-        txt += "TomorHenger{" + "fajsuly=" + fajsuly + '}';
+        txt += "TomorHenger{" + "fajsuly=" + fajsuly + "súly: " + suly() + '}';
         return txt;
     }
     

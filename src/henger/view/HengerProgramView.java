@@ -15,6 +15,7 @@ public class HengerProgramView {
         Henger henger2 = new Cso(2, 4, 4);
         System.out.println(henger1.toString());
         System.out.println(henger2.toString());
+        
 
     }
 
