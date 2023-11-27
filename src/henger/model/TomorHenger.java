@@ -12,9 +12,7 @@ public class TomorHenger extends Henger {
     
     public TomorHenger(double sugar, double magassag, double fajsuly){
         super(sugar, magassag);
-        
-    
-    
+        this.fajsuly = fajsuly;
     }
 
     public double getFajsuly() {

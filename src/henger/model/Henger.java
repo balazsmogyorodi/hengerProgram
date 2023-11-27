@@ -28,12 +28,12 @@ public class Henger {
     
     public double terfogat(){
     
-    return 0;
+    return Math.PI *(sugar*sugar)*magassag;
     }
 
     @Override
     public String toString() {
-        return "Henger{" + "hengerDb=" + hengerDb + ", sugar=" + sugar + ", magassag=" + magassag + '}';
+        return "Henger{" + "hengerDb=" + hengerDb + ", sugar=" + sugar + ", magassag=" + magassag + "Térfogat: " + terfogat() + '}';
     }
     
     

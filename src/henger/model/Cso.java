@@ -22,7 +22,6 @@ public class Cso extends TomorHenger{
     }
        
     public double terfogat(){
-    
     return super.terfogat();
     }
 
