@@ -27,7 +27,9 @@ public class Cso extends TomorHenger{
 
     @Override
     public String toString() {
-        return "Cso{" + "falvastagsag=" + falvastagsag + '}';
+        String txt = super.toString();
+        txt += "Cso{" + "falvastagsag=" + falvastagsag + '}';
+        return txt;
     }
     
     
